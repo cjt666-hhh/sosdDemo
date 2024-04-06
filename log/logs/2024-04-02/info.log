@@ -1,0 +1,26 @@
+2024-04-02 [main] INFO  com.sosddemo.SosdDemoApplication - Starting SosdDemoApplication using Java 17.0.9 on LAPTOP-HBA5CVAB with PID 17324 (D:\学习编程\javaWeb学习\coding\sosdDemo\target\classes started by LENOVO in D:\学习编程\javaWeb学习\coding\sosdDemo)
+2024-04-02 [main] INFO  com.sosddemo.SosdDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-04-02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-04-02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2024-04-02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-04-02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-02 [main] INFO  com.sosddemo.SosdDemoApplication - Started SosdDemoApplication in 1.808 seconds (JVM running for 2.184)
+2024-04-02 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-02 [http-nio-8080-exec-2] INFO  com.sosddemo.aspect.LogAspect - 
+===================
+接口名称：/test/hello/111
+调用时间：2024-04-02T21:08:52.931194100
+传参：[111]
+调用类型：GET
+接口响应时间：0 ms
+是否调用成功：true
+===================

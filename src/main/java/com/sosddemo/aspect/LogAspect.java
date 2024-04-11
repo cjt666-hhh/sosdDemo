@@ -1,7 +1,7 @@
 package com.sosddemo.aspect;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sosddemo.mapper.TestMapper;
+
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -41,14 +41,16 @@ public class LogAspect {
         Object result = joinPoint.proceed(); // continue on the intercepted method
         long endTime = System.currentTimeMillis();
 
-        Boolean isSuccess=true;
+        Boolean isSuccess=false;
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
         String requestMethod = request.getMethod();
         String requestURI = request.getRequestURI();
         String[] args = Arrays.stream(joinPoint.getArgs()).map(Object::toString).toArray(String[]::new);
 
         try {
-            result = joinPoint.proceed(); // continue on the intercepted method
+            result = joinPoint.proceed();
+            isSuccess=true;
+            // continue on the intercepted method
         } catch (Throwable e) {
             isSuccess = false;
             // 记录ERROR日志，并稍后重新抛出异常

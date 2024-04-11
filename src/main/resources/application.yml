@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/sosd?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://doc.fzuhuahuo.cn:3306/sosd_cloud_database?serverTimezone=UTC
     username: root
-    password: 123456
+    password: huahuolalala
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher

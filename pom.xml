@@ -15,6 +15,7 @@
     <description>sosdDemo</description>
     <properties>
         <java.version>11</java.version>
+        <sa-token.version>1.37.0</sa-token.version>
     </properties>
     <dependencies>
         <dependency>
@@ -140,6 +141,11 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>${sa-token.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

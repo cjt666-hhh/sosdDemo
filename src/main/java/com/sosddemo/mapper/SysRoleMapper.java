@@ -1,18 +1,18 @@
 package com.sosddemo.mapper;
 
-import com.sosddemo.entity.Test;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.sosddemo.entity.SysRole;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
- *  Mapper 接口
+ * 角色信息表 Mapper 接口
  * </p>
  *
  * @author author
- * @since 2024-04-01
+ * @since 2024-04-08
  */
 @Mapper
-public interface TestMapper extends BaseMapper<Test> {
+public interface SysRoleMapper extends BaseMapper<SysRole> {
 
 }
